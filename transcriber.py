@@ -57,6 +57,6 @@ class WhisperTranscriber:
             print("\nRecording for another {} seconds...".format(self.record_seconds))
 
 if __name__ == "__main__":
-    model_path = "/Users/sushilkumarbarai/workspace/generic_bot_RnD/live_transcription/faster-whisper-large-v3"
+    model_path = "/Users/sushilkumarbarai/......./live_transcription/faster-whisper-large-v3"
     transcriber = WhisperTranscriber(model_path=model_path)
     transcriber.run()
